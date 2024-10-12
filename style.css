@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #F1F5F9;
+    padding: 20px;
+}
+
+header img {
+    width: 360px;
+}
+
+header h1 {
+    font-size: 34px;
+    font-family: Inter;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+
+header {
+    text-align: center;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    flex: 1;
+    border-right: 1px solid #ccc;
+}
+
+.leaderboard-container {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-container h2 {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+table.leaderboard-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table.leaderboard-table th,
+table.leaderboard-table td {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+table.leaderboard-table th {
+    background-color: rgb(240, 249, 255);
+    font-weight: 600;
+}
+
+table.leaderboard-table tbody tr:hover {
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+table.leaderboard-table td,
+table.leaderboard-table th {
+    border-left: none;
+    border-right: none;
+}
+
+@media (max-width: 1024px) {
+    body {
+        width: 1200px;
+    }
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    margin: auto;
+}
+
+footer div a {
+    font-size: 19px;
+    margin-top: 40px;
+    color: #000;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GDG On-Campus NECN | GEN AI Study Jam Leaderboard</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Ramya Sree">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1728735778/favicon-16x16_fh6spv.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a32b9bd18e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tbody tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1728735393/GDG_College_Logo_Bg-White-removebg-preview_msmgfb.png" alt="GDG-NECN-Logo">
+        <h1>
+            <span style="color:#4285F4;">GEN AI STUDY JAM</span>
+            <span style="color:#0F9D58;">2024</span>
+        </h1>
+    </header>
+    <section class="leaderboard-container">
+        <div style="display: flex; justify-content: space-between;">
+            <h2>Student Leaderboard</h2>
+            <div class="search-bar-container">
+                <input type="text" id="myInput" class="search-bar" placeholder="Search leaderboard...">
+            </div>
+        </div>
+
+        <table class="leaderboard-table" id="myTable">
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Name</th>
+                    <th>Course Completion</th>
+                    <th>Skill Badge</th>
+                    <th>GEN AI Arcade Game</th>
+                    <th>Total Completion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Example1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Example2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Example3</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Example4</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Example5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Example6</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Example7</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Example8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Example9</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Example10</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Example11</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Example12</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Example13</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Example14</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Example15</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Example16</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Example17</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Example18</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Example19</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Example20</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <div>
+            <a href="https://www.linkedin.com/company/gdg-on-campus-necn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/gdg_on_campus_necn" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="mailto:gdgoncampusnecn@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.youtube.com/@gdg-on-campus-necn" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p style="font-size: 18px; color: #000; margin-top:10px;">Visit our page <a href="https://gdg.community.dev/gdg-on-campus-narayana-engineering-college-nellore-india/" target="_blank" style="color: #000;">here</a></p>
+        <p>© Built by <span style="font-weight: bold;">Ramya Sree</span> (GDG On-Campus Web/App Dev. Lead)</p>
+    </footer>
+
+</body>
+
+</html>
