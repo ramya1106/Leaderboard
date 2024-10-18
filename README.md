@@ -18,7 +18,7 @@ An interactive and responsive student leaderboard built with HTML, CSS, and jQue
 ## Live Demo
 
 You can access the live version of this project here:
-[Live Demo](https://ramya1106.github.io/Leader-Board/)
+[Live Demo](https://ramya1106.github.io/Leaderboard/)
 
 ## Project Structure
 
