@@ -1,6 +1,6 @@
 import Header from "../Header";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { useLocation } from "react-router-dom";
 
@@ -11,6 +11,8 @@ import { TbExternalLink } from "react-icons/tb";
 import { BsPersonCheck } from "react-icons/bs";
 
 import { FiGift } from "react-icons/fi";
+
+import { FaEye } from "react-icons/fa";
 
 import {
   StudentDetailsContainer,
@@ -35,6 +37,7 @@ import {
   ProgressTrackContainer,
   ProgressTimeline,
   TimelineTrack,
+  Position,
   Milestone,
   MilestoneFlag,
   BadgesListContainer,
@@ -44,12 +47,25 @@ import {
   BadgeItem,
 } from "./styledComponents";
 
+import Footer from "../Footer";
+
 function StudentDetails() {
   const [activeBadge, toggleActiveBadge] = useState("Skill Badges");
+
+  const [animatedProgress, setAnimatedProgress] = useState(0);
 
   const location = useLocation();
 
   const { studentData } = location.state || {};
+
+  const totalProgress = studentData.arcadeGames + studentData.skillBadges;
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAnimatedProgress(totalProgress);
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [totalProgress]);
 
   return (
     <>
@@ -69,26 +85,25 @@ function StudentDetails() {
 
               <InfoList>
                 <InfoItem>
-                  <InfoIcon as={MdOutlineMailOutline} />
+                  <InfoIcon as={MdOutlineMailOutline} mail />
                   <InfoText>{studentData.email}</InfoText>
                 </InfoItem>
 
                 <InfoItem as="a" href={studentData.profileURL} target="_blank">
                   <InfoIcon as={TbExternalLink} />
-                  <InfoText>
-                    Google Cloud Skill Boost Profile (Click to View)
-                  </InfoText>
+                  <InfoText>Google Cloud Skill Boost Profile</InfoText>
+                  <InfoIcon as={FaEye} link />
                 </InfoItem>
 
                 <InfoItem>
-                  <InfoIcon as={FiGift} />
+                  <InfoIcon as={BsPersonCheck} />
                   <InfoText>
                     Profile Status: {studentData.profileStatus}
                   </InfoText>
                 </InfoItem>
 
                 <InfoItem>
-                  <InfoIcon as={BsPersonCheck} />
+                  <InfoIcon as={FiGift} />
                   <InfoText>
                     {studentData.redemptionStatus === "Yes"
                       ? "Redeemed Credits Successfully"
@@ -130,9 +145,10 @@ function StudentDetails() {
 
         <ProgressTrackContainer>
           <ProgressTimeline>
-            <TimelineTrack
-              progress={studentData.arcadeGames + studentData.skillBadges}
-            ></TimelineTrack>
+            <TimelineTrack progress={animatedProgress} />
+            <Position position={animatedProgress}>{animatedProgress}</Position>
+
+            {/* Milestones */}
             <Milestone
               position="10"
               src="https://nxtwave.imgix.net/ccbp-website/portal-dashboard/TA/Milestone-icon.png?auto=format,compress&q=80"
@@ -184,6 +200,7 @@ function StudentDetails() {
           </BadgesList>
         </BadgesListContainer>
       </StudentDetailsContainer>
+      <Footer />
     </>
   );
 }

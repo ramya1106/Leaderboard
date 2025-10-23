@@ -4,6 +4,8 @@ import { FaEye } from "react-icons/fa";
 
 import Header from "../Header";
 
+import Footer from "../Footer";
+
 import {
   HomePage,
   LeaderboardContainer,
@@ -5521,6 +5523,7 @@ function Home() {
           </LeaderboardTable>
         </LeaderboardContainer>
       </HomePage>
+      <Footer/>
     </>
   );
 }

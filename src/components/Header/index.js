@@ -35,8 +35,8 @@ function Header() {
         <NavItem as={Link} to="/">
           Leaderboard
         </NavItem>
-        <NavItem>Swags</NavItem>
-        <NavItem>Gallery</NavItem>
+        <NavItem as={Link} to="/swags">Swags</NavItem>
+        <NavItem as={Link} to="/gallery">Gallery</NavItem>
       </NavItems>
     </Navbar>
   );

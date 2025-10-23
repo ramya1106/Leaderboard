@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 
 export const HomePage = styled.div`
   margin-top: 100px;
-  padding: 20px 100px;
+  padding: 20px 100px 40px 100px;
+  @media(max-width: 768px){
+    margin-top: 72px;
+    padding: 10px 20px 40px 20px;
+  }
 `
 
 export const LeaderboardContainer = styled.div`
@@ -14,6 +18,9 @@ export const LeaderboardContainer = styled.div`
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 32px;
+  @media(max-width: 768px){
+    padding: 18px 16px;
+  }
 `;
 
 export const HeaderSection = styled.div`
@@ -29,6 +36,9 @@ export const Title = styled.h2`
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   color: #333;
+  @media(max-width: 768px){
+    display: none;
+  }
 `;
 
 export const SearchBarContainer = styled.div`
@@ -37,6 +47,9 @@ export const SearchBarContainer = styled.div`
   margin-bottom: 20px;
   width: 100%;
   max-width: 300px;
+  @media(max-width: 768px){
+    max-width: 100%;
+  }
 `;
 
 export const SearchBar = styled.input`
@@ -104,6 +117,6 @@ export const StyledLink = styled(Link)`
   transition: color 0.2s;
 
   &:hover {
-    color: #0b57d0;
+    color: #800080;
   }
 `;
