@@ -70,28 +70,19 @@ export const SwagRow = styled.div`
 `;
 
 export const SwagColumn = styled.div`
-  flex: 1 1 300px;
-  max-width: 500px;
   margin: 16px;
   text-align: center;
+  @media(max-width: 768px){
+    margin: 4px;
+  }
 `;
 
 export const SwagImage = styled.img`
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   border-radius: 15px;
 `;
 
-export const SwagCard = styled.div`
-  background: #faf3ea;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: left;
-
-  ul {
-    padding-left: 16px;
-  }
-`;
 
 export const NoteSection = styled.div`
   max-width: 600px;

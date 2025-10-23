@@ -10,7 +10,6 @@ import {
   SwagRow,
   SwagColumn,
   SwagImage,
-  SwagCard,
   NoteSection,
 } from "./styledComponents";
 
@@ -59,28 +58,9 @@ const Swags = () => {
               <strong>Tier 1</strong>
             </h3>
             <SwagImage
-              src="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1731413519/tier-1_swags_k8uapq.png"
+              src="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1761212023/Tier_1_kicyh7.jpg"
               alt="Tier 1"
             />
-            <SwagCard>
-              <p>Swags Include:</p>
-              <ul>
-                <li>
-                  <strong>T-Shirt</strong> – Comfortable and stylish, ideal for
-                  showing your Gen-AI spirit.
-                </li>
-                <li>
-                  <strong>Water Bottle</strong> – Perfect for daily hydration.
-                </li>
-                <li>
-                  <strong>Sticker Set</strong> – Great for laptops and gadgets.
-                </li>
-                <li>
-                  <strong>Mug</strong> – Keeps you energized for coding or
-                  studying.
-                </li>
-              </ul>
-            </SwagCard>
           </SwagColumn>
 
           <SwagColumn>
@@ -88,21 +68,19 @@ const Swags = () => {
               <strong>Tier 2</strong>
             </h3>
             <SwagImage
-              src="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1731414154/swag_tier-2_kol74v.png"
+              src="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1761212022/Tier_2_zxvuh8.jpg"
               alt="Tier 2"
             />
-            <SwagCard>
-              <p>Swags Include:</p>
-              <ul>
-                <li>
-                  <strong>T-Shirt</strong> – Comfortable and stylish, ideal for
-                  showing your Gen-AI spirit.
-                </li>
-                <li>
-                  <strong>Water Bottle</strong> – Perfect for daily hydration.
-                </li>
-              </ul>
-            </SwagCard>
+          </SwagColumn>
+
+          <SwagColumn>
+            <h3>
+              <strong>Tier 3</strong>
+            </h3>
+            <SwagImage
+              src="https://res.cloudinary.com/dn9sdbv1o/image/upload/v1761212022/Tier_3_fdlk7l.jpg"
+              alt="Tier 3"
+            />
           </SwagColumn>
         </SwagRow>
 
