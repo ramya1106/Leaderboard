@@ -1035,6 +1035,41 @@ const data = [
     },
     {
         "sno": 30,
+        "name": "Darla Thanushya",
+        "email": "darlathanushya2005@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/1864fdf2-ce70-4c1e-a41c-e2390f6c3fc6",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 31,
         "name": "Dasaradha Rama Murthy P",
         "email": "dasaradharamamurthy@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/551f9445-9c41-4055-ab56-a26c03cc380d",
@@ -1069,7 +1104,7 @@ const data = [
         ]
     },
     {
-        "sno": 31,
+        "sno": 32,
         "name": "Duvvuru likhitha",
         "email": "duvvurulikhitha03@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/d88bc3ab-16c6-435b-b37e-f72fe2eb6cb9",
@@ -1104,7 +1139,7 @@ const data = [
         ]
     },
     {
-        "sno": 32,
+        "sno": 33,
         "name": "GAJJELA SHAILASREE",
         "email": "gajjelashailasree@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/9a5c1d6b-8ccd-4ad9-a565-9760ab3d5c8c",
@@ -1139,7 +1174,7 @@ const data = [
         ]
     },
     {
-        "sno": 33,
+        "sno": 34,
         "name": "Gandavarapu Pavan Kumar",
         "email": "23711a05e3@necn.ac.in",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/bc47187b-9b19-4139-955e-af58977c9502",
@@ -1174,7 +1209,42 @@ const data = [
         ]
     },
     {
-        "sno": 34,
+        "sno": 35,
+        "name": "Garika.Asritha",
+        "email": "asritha162006@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/66beabff-ad5d-4bce-af80-98cecf4abbc8",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 36,
         "name": "Gnana Sritha Gouravaram",
         "email": "gnanasritha4@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/60d66905-48c8-4c98-88b9-cbb1cdf1c28b",
@@ -1209,7 +1279,7 @@ const data = [
         ]
     },
     {
-        "sno": 35,
+        "sno": 37,
         "name": "GUDALA HIRANMAI",
         "email": "hiranmaigudala2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/dddd490b-8eb5-41f8-aba6-0e3a56398475",
@@ -1244,7 +1314,7 @@ const data = [
         ]
     },
     {
-        "sno": 36,
+        "sno": 38,
         "name": "Guduru Deepthi",
         "email": "deepthiguduru4@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/00c61d6a-a61c-4ea9-ae80-9828ff34d146",
@@ -1279,7 +1349,7 @@ const data = [
         ]
     },
     {
-        "sno": 37,
+        "sno": 39,
         "name": "Guduru Jhansi Lakshmi",
         "email": "jhansicvml@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/bf16e51c-8025-4dca-b7e3-3dfa5914f7b0",
@@ -1314,7 +1384,7 @@ const data = [
         ]
     },
     {
-        "sno": 38,
+        "sno": 40,
         "name": "Gundla Sai Srinath",
         "email": "saisrinath1212@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5cc62d79-ab81-4953-81a5-b140f7e34629",
@@ -1349,7 +1419,7 @@ const data = [
         ]
     },
     {
-        "sno": 39,
+        "sno": 41,
         "name": "GUNJI NAGALAKSHMI",
         "email": "n.lakshmi.3056@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3b279241-7018-47b2-8c4f-248c78d43579",
@@ -1384,7 +1454,7 @@ const data = [
         ]
     },
     {
-        "sno": 40,
+        "sno": 42,
         "name": "Hema Madhira",
         "email": "madhirahema@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/73043a70-408b-43fe-a7b2-5bea2f5e8785",
@@ -1419,7 +1489,7 @@ const data = [
         ]
     },
     {
-        "sno": 41,
+        "sno": 43,
         "name": "Jetti Bhavana",
         "email": "bhavanareddy1166@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/30b0886d-a31f-43ae-93ca-87bd4f1e4b59",
@@ -1454,7 +1524,7 @@ const data = [
         ]
     },
     {
-        "sno": 42,
+        "sno": 44,
         "name": "Jogiparthi Siri",
         "email": "jogiparthisiri2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/0d1f7a65-a595-47e8-9799-4baa01962acd",
@@ -1489,7 +1559,7 @@ const data = [
         ]
     },
     {
-        "sno": 43,
+        "sno": 45,
         "name": "Kadimi Suma Sri",
         "email": "kadimisumasri1298@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/2e95dedf-4560-40f3-9562-0b94f75ae0e5",
@@ -1524,7 +1594,7 @@ const data = [
         ]
     },
     {
-        "sno": 44,
+        "sno": 46,
         "name": "Kakumanu Varshitha",
         "email": "kakumanuvarshitha04@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/45dcde6d-35dc-4706-99ff-3762b9b97bac",
@@ -1559,7 +1629,7 @@ const data = [
         ]
     },
     {
-        "sno": 45,
+        "sno": 47,
         "name": "Kancharla Lakshmi Vyshnavi",
         "email": "Vyshuv474@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/74705557-499f-49a4-b74e-e5bc2e58ac52",
@@ -1594,7 +1664,7 @@ const data = [
         ]
     },
     {
-        "sno": 46,
+        "sno": 48,
         "name": "Kancharlapalli Gowthami",
         "email": "gowthamikancharlapalli4@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3050f2a3-90f9-4124-9ca7-327892e326a7",
@@ -1629,7 +1699,7 @@ const data = [
         ]
     },
     {
-        "sno": 47,
+        "sno": 49,
         "name": "Kande. Kasi Avinash",
         "email": "kasiavinashkande@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/e425300e-3083-4e6d-ab90-6fbe6afd48f7",
@@ -1664,7 +1734,7 @@ const data = [
         ]
     },
     {
-        "sno": 48,
+        "sno": 50,
         "name": "Kannamangalam Nagesh Prajesh",
         "email": "k.n.prajesh28@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/087862d8-6cd9-437d-b5c0-e2f245f5804e",
@@ -1699,7 +1769,7 @@ const data = [
         ]
     },
     {
-        "sno": 49,
+        "sno": 51,
         "name": "Katamoni sushmadass",
         "email": "Katamonisushmagoud@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/84c93d55-4754-4892-81af-e00c0f1d330c",
@@ -1734,7 +1804,7 @@ const data = [
         ]
     },
     {
-        "sno": 50,
+        "sno": 52,
         "name": "Khushbu Kumari Khatri",
         "email": "rk970411@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/66673114-6063-41d7-a2e8-f69e3294836d",
@@ -1769,7 +1839,7 @@ const data = [
         ]
     },
     {
-        "sno": 51,
+        "sno": 53,
         "name": "Kolla Muni Thanusha",
         "email": "thanushakolla2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/68fac0b1-aed2-460d-bcf1-d3ca511978b9",
@@ -1804,7 +1874,42 @@ const data = [
         ]
     },
     {
-        "sno": 52,
+        "sno": 54,
+        "name": "Konduru Yamini",
+        "email": "konduruyamini75@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/8d57b3ae-6fca-4f43-a897-dfbb70b8d081",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 55,
         "name": "Kruthika Pallapolu",
         "email": "kruthikasasi08@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/a9f897a3-8035-4e96-8978-40c8ce3ca54c",
@@ -1839,7 +1944,7 @@ const data = [
         ]
     },
     {
-        "sno": 53,
+        "sno": 56,
         "name": "KUNDAM SASI REKHA",
         "email": "kundamsasirekha@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/8e508acb-ebbd-4e5b-8d70-b51641d0dfad",
@@ -1874,7 +1979,7 @@ const data = [
         ]
     },
     {
-        "sno": 54,
+        "sno": 57,
         "name": "KURAPATI VENKATA POOJITHA",
         "email": "venkatasatyanaga2005@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/c0178ef4-2693-40b2-9c3d-061d114eae8c",
@@ -1909,7 +2014,7 @@ const data = [
         ]
     },
     {
-        "sno": 55,
+        "sno": 58,
         "name": "L.sai nagarjuna",
         "email": "lagadapati.sai2007@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6ddfb8b8-1d72-4481-9ecd-248a7dbb2fb1",
@@ -1944,7 +2049,7 @@ const data = [
         ]
     },
     {
-        "sno": 56,
+        "sno": 59,
         "name": "M.Gayathri",
         "email": "gayathrimoodi@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5568a4b4-d10a-4aa8-8ac8-da838d5974a9",
@@ -1979,7 +2084,7 @@ const data = [
         ]
     },
     {
-        "sno": 57,
+        "sno": 60,
         "name": "M.pratyusha",
         "email": "mspratyu05@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/2f0784e0-ad96-4919-8607-31de039375a8",
@@ -2014,7 +2119,42 @@ const data = [
         ]
     },
     {
-        "sno": 58,
+        "sno": 61,
+        "name": "Mahankali lahari",
+        "email": "Mahanakalilahari@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/4791341c-85bc-43ac-b4ae-fb4cff01fbf4",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 62,
         "name": "Mamidi Ramya Sree",
         "email": "23711a0535@necn.ac.in",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f272c9e9-1042-4fcb-9065-a3f2c538ab17",
@@ -2049,7 +2189,7 @@ const data = [
         ]
     },
     {
-        "sno": 59,
+        "sno": 63,
         "name": "Manchikalapati Rajeswari Thanmai",
         "email": "mrajeswarithanmai@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/c3cebe2b-df86-456f-87f8-ebdb8c274342",
@@ -2084,7 +2224,7 @@ const data = [
         ]
     },
     {
-        "sno": 60,
+        "sno": 64,
         "name": "Mandepu Sukeerthi",
         "email": "sukeerthi0228@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/68eaafdb-f863-4420-9d9c-98616377ed0c",
@@ -2119,7 +2259,7 @@ const data = [
         ]
     },
     {
-        "sno": 61,
+        "sno": 65,
         "name": "Manga Deepak",
         "email": "deepakmanga2205@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/4aaa6fee-e255-4de2-b13c-c0ee8082bf68",
@@ -2154,7 +2294,7 @@ const data = [
         ]
     },
     {
-        "sno": 62,
+        "sno": 66,
         "name": "Melarkode Laahitha",
         "email": "melarkodelaahitha27@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/d9f0600e-010a-4e31-a0f2-86bd84696ae9",
@@ -2189,7 +2329,7 @@ const data = [
         ]
     },
     {
-        "sno": 63,
+        "sno": 67,
         "name": "MOHAMMAD SHEEMA SADIYA",
         "email": "mohammedsheemasadiya@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/8501a785-e04a-404c-8e8b-c93f46e88981",
@@ -2224,7 +2364,7 @@ const data = [
         ]
     },
     {
-        "sno": 64,
+        "sno": 68,
         "name": "Mohammed Athiq Ahmed",
         "email": "athiqahmed710@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/242b37e1-f425-4399-891d-d84cc11fde23",
@@ -2259,7 +2399,7 @@ const data = [
         ]
     },
     {
-        "sno": 65,
+        "sno": 69,
         "name": "MOHAMMED HALEEMA SADIYA",
         "email": "mohammedhaleemasadiya104@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/03551bf0-1160-492e-aca7-c81c42b575a1",
@@ -2294,7 +2434,7 @@ const data = [
         ]
     },
     {
-        "sno": 66,
+        "sno": 70,
         "name": "Mohammed Imran",
         "email": "iamimran0531@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/77ae9d56-dd2d-46d7-bda4-83c263d25b97",
@@ -2329,7 +2469,7 @@ const data = [
         ]
     },
     {
-        "sno": 67,
+        "sno": 71,
         "name": "Muddanuru Thanusha",
         "email": "mthanusha0311@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/a156d070-5f4d-4071-bb0f-27c26e9d6d01",
@@ -2364,7 +2504,7 @@ const data = [
         ]
     },
     {
-        "sno": 68,
+        "sno": 72,
         "name": "MUMMAREDDY TEJASWINI REDDY",
         "email": "tejaswinireddy12124@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f70cb0cb-b52d-401c-8ea8-446403ee5fe9",
@@ -2399,7 +2539,7 @@ const data = [
         ]
     },
     {
-        "sno": 69,
+        "sno": 73,
         "name": "Munaganuri Venkata Naga Chathurya",
         "email": "chathu1311005@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f639aa7a-2997-4dae-b608-81384588e9ad",
@@ -2434,7 +2574,7 @@ const data = [
         ]
     },
     {
-        "sno": 70,
+        "sno": 74,
         "name": "MYNAMPATI KEERTHANA",
         "email": "mynampati3125@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f8e11f2c-c0f9-4916-a3b3-50b2c6914107",
@@ -2469,7 +2609,7 @@ const data = [
         ]
     },
     {
-        "sno": 71,
+        "sno": 75,
         "name": "Nalisetty Meenanjani",
         "email": "meenanjaninalisetty@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3378cb3a-5d2c-4681-83bb-6e8e49268f7b",
@@ -2504,7 +2644,7 @@ const data = [
         ]
     },
     {
-        "sno": 72,
+        "sno": 76,
         "name": "Naveen Chadalla",
         "email": "naveenchadalla10@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/175f9b86-db53-4f4d-a96f-2b04b46180e2",
@@ -2539,7 +2679,7 @@ const data = [
         ]
     },
     {
-        "sno": 73,
+        "sno": 77,
         "name": "Nerella Venkata Sai Krishna Sanguine",
         "email": "sanguinenerella@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6de6ffa0-c7a6-4222-a183-e73397a6587a",
@@ -2574,7 +2714,7 @@ const data = [
         ]
     },
     {
-        "sno": 74,
+        "sno": 78,
         "name": "Nindali Rupu Chandu",
         "email": "rupuchandu576@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/b60b5ca8-8ac9-4ea8-bf44-31c532526b7c",
@@ -2609,7 +2749,7 @@ const data = [
         ]
     },
     {
-        "sno": 75,
+        "sno": 79,
         "name": "Pabbathi Usha Jyothsna",
         "email": "ushapabbathi29@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/56230a89-c747-490a-88cf-04da94f1948e",
@@ -2644,7 +2784,7 @@ const data = [
         ]
     },
     {
-        "sno": 76,
+        "sno": 80,
         "name": "Pasupuleti Girisha",
         "email": "girishapasupuleti@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5430397a-0bd6-48e6-9b2e-e7a427725c37",
@@ -2679,7 +2819,7 @@ const data = [
         ]
     },
     {
-        "sno": 77,
+        "sno": 81,
         "name": "Pasupuleti Ushasri",
         "email": "pasupuletiusha11@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f049bd68-aa3d-451e-8af9-dd4e42ec8144",
@@ -2714,7 +2854,7 @@ const data = [
         ]
     },
     {
-        "sno": 78,
+        "sno": 82,
         "name": "Pattapu Srija",
         "email": "pattapusrija47@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/67e29dc4-e343-41ca-a0b9-49e7089da77f",
@@ -2749,7 +2889,7 @@ const data = [
         ]
     },
     {
-        "sno": 79,
+        "sno": 83,
         "name": "Pavan pydimarri",
         "email": "pydimarripavan@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f560dce7-b4ee-4c60-8f64-f699cdf2088a",
@@ -2784,7 +2924,7 @@ const data = [
         ]
     },
     {
-        "sno": 80,
+        "sno": 84,
         "name": "Podhili Revathi",
         "email": "revathipodhili7@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/943b6721-08e4-4f5f-b9b9-2220ede307b8",
@@ -2819,7 +2959,7 @@ const data = [
         ]
     },
     {
-        "sno": 81,
+        "sno": 85,
         "name": "PONUGOTI GAYATHRI",
         "email": "gayathriponugoti31@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/33c95f90-82d1-42e2-b60f-760769efa39a",
@@ -2854,7 +2994,7 @@ const data = [
         ]
     },
     {
-        "sno": 82,
+        "sno": 86,
         "name": "Poonuri Raj Vardhan",
         "email": "poonuri.rajvardhan@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3e742686-834f-4bd3-ade2-b2023fa8aa27",
@@ -2889,7 +3029,42 @@ const data = [
         ]
     },
     {
-        "sno": 83,
+        "sno": 87,
+        "name": "Pottapi Poornesh Kumar",
+        "email": "poorneshkumar68183@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/ecdd008a-729e-4fdc-8aec-9276a1ac0f88",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 88,
         "name": "Preetham Goud",
         "email": "preethamgoud2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/402ee5f5-4386-47a1-a397-34de036aa778",
@@ -2924,7 +3099,7 @@ const data = [
         ]
     },
     {
-        "sno": 84,
+        "sno": 89,
         "name": "PriyaMithra Mallela",
         "email": "priyamithramallela06@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/7412a355-419f-4b3b-b03e-ad295933c9f2",
@@ -2959,7 +3134,42 @@ const data = [
         ]
     },
     {
-        "sno": 85,
+        "sno": 90,
+        "name": "Putikam Kanthi Charan REddy",
+        "email": "kanthicharan1234@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/2877630c-e6f1-4ac0-8940-da55485d8c41",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 91,
         "name": "RAVULA VISHNUPRIYA",
         "email": "vishnupriyaravula3@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/b55fb5bd-cb31-4816-b1a8-df5605f19ce1",
@@ -2994,7 +3204,42 @@ const data = [
         ]
     },
     {
-        "sno": 86,
+        "sno": 92,
+        "name": "SABIHA SULTHANA SHAIK",
+        "email": "shaiksabihasulthana484@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/75a775e5-417b-458d-9ba2-38ba89bbd04e",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 93,
         "name": "Sanam Venkata Lavanya",
         "email": "venkatalavanya.sanam@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/11b48b62-95f9-40aa-a011-59c105b519bb",
@@ -3029,7 +3274,7 @@ const data = [
         ]
     },
     {
-        "sno": 87,
+        "sno": 94,
         "name": "SANGA SAILAJA",
         "email": "sailajasanga801@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3ac72124-9e34-4d43-ab46-ed5fa385ff63",
@@ -3064,7 +3309,7 @@ const data = [
         ]
     },
     {
-        "sno": 88,
+        "sno": 95,
         "name": "SANNAPAREDDY CHETAN REDDY",
         "email": "chetansannapareddyedu@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/1425008b-992c-48ad-b282-6bea456028e3",
@@ -3099,7 +3344,7 @@ const data = [
         ]
     },
     {
-        "sno": 89,
+        "sno": 96,
         "name": "Sannapareddy Manvitha",
         "email": "manvitha0408@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f4c8dc31-11af-448d-91ce-26a8fcdf614a",
@@ -3134,7 +3379,7 @@ const data = [
         ]
     },
     {
-        "sno": 90,
+        "sno": 97,
         "name": "Sannapareddy Vaishnavi",
         "email": "vaishnavisannapareddy@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/03198bcf-756c-4670-961a-5e39bf93786a",
@@ -3169,7 +3414,7 @@ const data = [
         ]
     },
     {
-        "sno": 91,
+        "sno": 98,
         "name": "SHAIK JASMIN",
         "email": "jasmin85315@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/9b5bc03b-2a83-487f-b0bc-723784ead51f",
@@ -3204,7 +3449,7 @@ const data = [
         ]
     },
     {
-        "sno": 92,
+        "sno": 99,
         "name": "Shaik Minhaj",
         "email": "minhajshaik2005@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/74baf4e1-cb11-4845-bf46-bbfd262a82a7",
@@ -3239,7 +3484,7 @@ const data = [
         ]
     },
     {
-        "sno": 93,
+        "sno": 100,
         "name": "Shaik Mustaq",
         "email": "mustaqsk47@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/36b72924-555e-4845-ac89-8fade15eecbe",
@@ -3274,7 +3519,7 @@ const data = [
         ]
     },
     {
-        "sno": 94,
+        "sno": 101,
         "name": "SHAIK SAMEER",
         "email": "shaiksameer2431@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3998eabd-170f-4440-948c-84ce03b0e027",
@@ -3309,7 +3554,42 @@ const data = [
         ]
     },
     {
-        "sno": 95,
+        "sno": 102,
+        "name": "Shaik Sameer Basha",
+        "email": "sksameerbasha17@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/9de3d905-c108-45c2-8530-6d49a5e53bf7",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 103,
         "name": "Shaik Sherin",
         "email": "sherinshaik9849@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/81daf027-1106-4643-b117-e1590b7cc243",
@@ -3344,7 +3624,7 @@ const data = [
         ]
     },
     {
-        "sno": 96,
+        "sno": 104,
         "name": "SHAIK. SAJEED",
         "email": "sksajeed786786786@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/62d45144-a568-4d3e-9857-2e2106006da0",
@@ -3379,7 +3659,7 @@ const data = [
         ]
     },
     {
-        "sno": 97,
+        "sno": 105,
         "name": "SHEEBA SADIYA SHAIK",
         "email": "sheebaedd4529@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/327438b1-f664-4e20-a289-6d0753b4cce2",
@@ -3414,7 +3694,7 @@ const data = [
         ]
     },
     {
-        "sno": 98,
+        "sno": 106,
         "name": "Singanamala Jaya Lakshmi",
         "email": "jaya.singanamala@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6875d8f0-cdec-4643-95d3-a890cf82f6ee",
@@ -3449,7 +3729,7 @@ const data = [
         ]
     },
     {
-        "sno": 99,
+        "sno": 107,
         "name": "Sk. Mohammad Thaheer",
         "email": "taheerepic@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/59767ac9-0000-44ef-ab34-2692b84fd1e8",
@@ -3484,7 +3764,7 @@ const data = [
         ]
     },
     {
-        "sno": 100,
+        "sno": 108,
         "name": "SOMISETTY SEETHAL",
         "email": "seethalsomisetty@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/12a3c06f-cc51-4759-b0d8-7aff6443a0f9",
@@ -3519,7 +3799,7 @@ const data = [
         ]
     },
     {
-        "sno": 101,
+        "sno": 109,
         "name": "Sriram Venkata Aakanksha",
         "email": "sriramaakanksha@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/abed5130-9827-4b06-a08a-9c7412925a7b",
@@ -3554,7 +3834,7 @@ const data = [
         ]
     },
     {
-        "sno": 102,
+        "sno": 110,
         "name": "Sruthi Harika",
         "email": "sruthiharika1726@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/e6afc5ba-7059-4c89-82ed-8a1064c7efcc",
@@ -3589,7 +3869,7 @@ const data = [
         ]
     },
     {
-        "sno": 103,
+        "sno": 111,
         "name": "Sruthi kandati",
         "email": "sruthikandati601@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/4218c0b6-adc7-4fe7-8f96-93b66bb6405d",
@@ -3624,7 +3904,7 @@ const data = [
         ]
     },
     {
-        "sno": 104,
+        "sno": 112,
         "name": "Supriya Lokeswari Thadakaluri",
         "email": "tslokeswari21@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/1e161fad-5ba2-4d22-82ef-493643be54d0",
@@ -3659,7 +3939,7 @@ const data = [
         ]
     },
     {
-        "sno": 105,
+        "sno": 113,
         "name": "Swarnapudi Anusha",
         "email": "swarnapudianusha@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6bc1c68c-87aa-4947-a60a-bf2199e8d7f9",
@@ -3694,7 +3974,7 @@ const data = [
         ]
     },
     {
-        "sno": 106,
+        "sno": 114,
         "name": "Syed Ali Ahamad",
         "email": "syedaliahmad121@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/702fb785-f184-4caf-b4a7-253351638ee3",
@@ -3729,7 +4009,7 @@ const data = [
         ]
     },
     {
-        "sno": 107,
+        "sno": 115,
         "name": "Syed Habeeba Nihaal",
         "email": "habeebanihaalsyed@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/78cedafe-5690-4837-933a-4277b543456e",
@@ -3764,7 +4044,7 @@ const data = [
         ]
     },
     {
-        "sno": 108,
+        "sno": 116,
         "name": "Syed Shaistha Sulthana",
         "email": "syedshaistha07@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/b3b46730-1044-41e7-9151-2a9fbbe249a0",
@@ -3799,7 +4079,7 @@ const data = [
         ]
     },
     {
-        "sno": 109,
+        "sno": 117,
         "name": "SYED.MUDDASSIR",
         "email": "syedmuddassir7862005@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/dc0970a5-f113-4912-bd20-0db78742087f",
@@ -3834,7 +4114,7 @@ const data = [
         ]
     },
     {
-        "sno": 110,
+        "sno": 118,
         "name": "T. Pardhasaradhi",
         "email": "pardhu912007@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/92c7a102-c6dd-42c7-bce2-981fa5d8c8d1",
@@ -3869,7 +4149,7 @@ const data = [
         ]
     },
     {
-        "sno": 111,
+        "sno": 119,
         "name": "Tallapaneni Siri Chandana",
         "email": "madhavitallapaneni77@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/df458344-ca4a-470e-a647-a0e961cd50d7",
@@ -3904,7 +4184,7 @@ const data = [
         ]
     },
     {
-        "sno": 112,
+        "sno": 120,
         "name": "Talluru Jahnavi",
         "email": "tallurujahnavi@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/743586ad-261b-4511-934f-fa33f02c5baf",
@@ -3939,7 +4219,42 @@ const data = [
         ]
     },
     {
-        "sno": 113,
+        "sno": 121,
+        "name": "Tanguturu Someswari",
+        "email": "someswaritanguturu@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/5b7a2525-743e-4266-8a31-221c5b849eaf",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 122,
         "name": "Thaneeru Venkata Lakshmi Pavithra",
         "email": "pavithrathaneeru26@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/e1ff8b10-ee47-4e80-bef2-14b938d9dbc8",
@@ -3974,7 +4289,7 @@ const data = [
         ]
     },
     {
-        "sno": 114,
+        "sno": 123,
         "name": "Thodeti Mehatha",
         "email": "Shabanathodeti@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/c4f777bc-1098-4dba-bcb6-2a13f5d6e508",
@@ -4009,7 +4324,7 @@ const data = [
         ]
     },
     {
-        "sno": 115,
+        "sno": 124,
         "name": "Vaddigala Thanuja",
         "email": "thanuja16126@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/d8a911d3-d753-4988-9052-b96aae67aecc",
@@ -4044,7 +4359,7 @@ const data = [
         ]
     },
     {
-        "sno": 116,
+        "sno": 125,
         "name": "Vallepu Akshaya",
         "email": "Vallepuakshaya6@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/0489ac3c-f827-49ce-8521-a624726e23fe",
@@ -4079,7 +4394,7 @@ const data = [
         ]
     },
     {
-        "sno": 117,
+        "sno": 126,
         "name": "Vallepu Vamsi",
         "email": "vamsivallepu567@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/ed8477b9-ff8f-478c-a8aa-172180dc14b4",
@@ -4114,7 +4429,7 @@ const data = [
         ]
     },
     {
-        "sno": 118,
+        "sno": 127,
         "name": "vallepushruthi",
         "email": "vallepushruthi469@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/30771e1c-7b54-4bac-8388-c0d39262639c",
@@ -4149,7 +4464,7 @@ const data = [
         ]
     },
     {
-        "sno": 119,
+        "sno": 128,
         "name": "Vedasistla Venkata Sai Pranav Kumar",
         "email": "pranavkumarvvs2007@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/94178e82-8dce-48da-b6d9-b76545185905",
@@ -4184,7 +4499,7 @@ const data = [
         ]
     },
     {
-        "sno": 120,
+        "sno": 129,
         "name": "Vellapalem Sai Sukeerthi Reddy",
         "email": "saisukeerthi2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/c2ccfce5-e0fa-4673-8959-544445d4f305",
@@ -4219,7 +4534,7 @@ const data = [
         ]
     },
     {
-        "sno": 121,
+        "sno": 130,
         "name": "Vempuluru Sai charan",
         "email": "Charansai2825@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5dfc70ba-31a7-4c11-a2f1-664d8d7260ae",
@@ -4254,7 +4569,42 @@ const data = [
         ]
     },
     {
-        "sno": 122,
+        "sno": 131,
+        "name": "Vemula Sri Lasya",
+        "email": "srilasya2909@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/c0427cb6-af6a-43f7-91a8-5cbd4b9aae48",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 19,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 132,
         "name": "Vidavaluru Sai Gopika",
         "email": "saigopika2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/0a277ae3-ed38-4b42-bcb4-9bbdfe198583",
@@ -4289,7 +4639,7 @@ const data = [
         ]
     },
     {
-        "sno": 123,
+        "sno": 133,
         "name": "Vikram Khushal",
         "email": "jain.khushal1566@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/3df37658-d200-467a-8b33-d14507c4eb52",
@@ -4324,7 +4674,7 @@ const data = [
         ]
     },
     {
-        "sno": 124,
+        "sno": 134,
         "name": "Vinjamuri Mahitha Chowdary",
         "email": "mahitha942006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/b2484d78-2b25-43e0-9773-11d3099e9c93",
@@ -4359,7 +4709,7 @@ const data = [
         ]
     },
     {
-        "sno": 125,
+        "sno": 135,
         "name": "Vulavapati Sravya",
         "email": "sravyavulavapati@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/1df20772-0ac3-4f87-b889-1b0ef77123b5",
@@ -4394,7 +4744,7 @@ const data = [
         ]
     },
     {
-        "sno": 126,
+        "sno": 136,
         "name": "Vyshnavi Polavarapu",
         "email": "vyshnavipolavarapu007@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/760593ec-5784-4310-ab0a-f574e14e859b",
@@ -4429,7 +4779,7 @@ const data = [
         ]
     },
     {
-        "sno": 127,
+        "sno": 137,
         "name": "Yekollu Satwika",
         "email": "satwikayekollu@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f1c2327d-3e0f-4bfb-a0e5-512865a91169",
@@ -4464,106 +4814,7 @@ const data = [
         ]
     },
     {
-        "sno": 128,
-        "name": "Darla Thanushya",
-        "email": "darlathanushya2005@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/1864fdf2-ce70-4c1e-a41c-e2390f6c3fc6",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 19,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 129,
-        "name": "Konduru Yamini",
-        "email": "konduruyamini75@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/8d57b3ae-6fca-4f43-a897-dfbb70b8d081",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 19,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 130,
-        "name": "Mahankali lahari",
-        "email": "Mahanakalilahari@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/4791341c-85bc-43ac-b4ae-fb4cff01fbf4",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 19,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 131,
+        "sno": 138,
         "name": "NEMALLAPUDI LOHITHA",
         "email": "lohithanemallapudi30@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/87ee0667-8f4d-4105-b3b3-1b9dabec09dc",
@@ -4596,10 +4847,10 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 132,
-        "name": "Putikam Kanthi Charan REddy",
-        "email": "kanthicharan1234@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/2877630c-e6f1-4ac0-8940-da55485d8c41",
+        "sno": 139,
+        "name": "Padarthi Revanth",
+        "email": "revanthsigningoff@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/5d7010e7-025e-4028-b3fa-f105e1e1d06f",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
         "skillBadges": 19,
@@ -4629,73 +4880,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 133,
-        "name": "Shaik Sameer Basha",
-        "email": "sksameerbasha17@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/9de3d905-c108-45c2-8530-6d49a5e53bf7",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 19,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 134,
-        "name": "Tanguturu Someswari",
-        "email": "someswaritanguturu@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/5b7a2525-743e-4266-8a31-221c5b849eaf",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 19,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 135,
+        "sno": 140,
         "name": "Thiruvayipati Madhavan",
         "email": "madhavanthiruvaipati@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/e7baf376-748f-4ceb-8e24-588ab38e7b6d",
@@ -4728,7 +4913,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 136,
+        "sno": 141,
         "name": "Chinta. Sai Tejaswini",
         "email": "saitejaswini94911@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/9c81609d-4332-4b58-b33e-f45c2a2f84aa",
@@ -4762,7 +4947,7 @@ const data = [
         ]
     },
     {
-        "sno": 137,
+        "sno": 142,
         "name": "DEVISETTY VENKATA SAI SUNANDINI",
         "email": "devisettysaisunandini@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/fc7977c1-2a1c-41dd-bcea-18f10467169e",
@@ -4796,7 +4981,7 @@ const data = [
         ]
     },
     {
-        "sno": 138,
+        "sno": 143,
         "name": "KHATHEEB MUSADDIQ",
         "email": "musaddiq1828@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/61a95868-f0ea-407b-8b4e-f96bd39bbd5a",
@@ -4830,7 +5015,41 @@ const data = [
         ]
     },
     {
-        "sno": 139,
+        "sno": 144,
+        "name": "Maddu Yuvasree",
+        "email": "m.yuvasree123@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/1f34b6e6-dd28-4280-aed5-c5ba8282e776",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 18,
+        "arcadeGames": 1,
+        "totalCompletion": "Yes",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
+    },
+    {
+        "sno": 145,
         "name": "Padidham Venkata.Manaswini",
         "email": "padidhammanaswini@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/458f5d09-3dcd-46be-b655-00f6db3081e2",
@@ -4864,7 +5083,7 @@ const data = [
         ]
     },
     {
-        "sno": 140,
+        "sno": 146,
         "name": "Pallavi gvss",
         "email": "gvsspallavi@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/72dbad41-bd49-4511-89b9-033aac8f7ed7",
@@ -4898,7 +5117,7 @@ const data = [
         ]
     },
     {
-        "sno": 141,
+        "sno": 147,
         "name": "Pillella Lakshmi Srija",
         "email": "lakshmisrija1609@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5d6335f5-bfef-474f-b3b9-cd3c4b9b05e2",
@@ -4932,7 +5151,7 @@ const data = [
         ]
     },
     {
-        "sno": 142,
+        "sno": 148,
         "name": "Shaik Farshad",
         "email": "Shaikfarshu305@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/d84728c7-3e8e-41f5-9d32-e2ed9fe2ec27",
@@ -4966,7 +5185,7 @@ const data = [
         ]
     },
     {
-        "sno": 143,
+        "sno": 149,
         "name": "Abdul Ahad",
         "email": "ahadabdul22338@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/b85eee2d-422c-41a4-99b0-bdd108752ea8",
@@ -4998,7 +5217,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 144,
+        "sno": 150,
         "name": "G Bhavana",
         "email": "bhavanagandla3@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/da25ae8f-763a-4860-980a-cf48b77718f5",
@@ -5030,75 +5249,10 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 145,
-        "name": "Padarthi Revanth",
-        "email": "revanthsigningoff@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/5d7010e7-025e-4028-b3fa-f105e1e1d06f",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 18,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 146,
-        "name": "Garika.Asritha",
-        "email": "asritha162006@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/66beabff-ad5d-4bce-af80-98cecf4abbc8",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 17,
-        "arcadeGames": 1,
-        "totalCompletion": "Yes",
-        "skillBadgesList": [
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": [
-            "Level 3: Generative AI"
-        ]
-    },
-    {
-        "sno": 147,
-        "name": "Vemula Sri Lasya",
-        "email": "srilasya2909@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/c0427cb6-af6a-43f7-91a8-5cbd4b9aae48",
+        "sno": 151,
+        "name": "PIDATHALA GNANA SUDHA MOUNIKA",
+        "email": "gnanasudhamounika@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/ff70adb3-fd83-4530-bffc-56300fb3ae1e",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
         "skillBadges": 17,
@@ -5109,10 +5263,10 @@ const data = [
             "Get Started with Cloud Storage",
             "Get Started with Pub/Sub",
             "Get Started with API Gateway",
+            "Get Started with Looker",
             "Get Started with Dataplex",
             "Get Started with Google Workspace Tools",
             "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
             "Build a Website on Google Cloud",
             "Set Up a Google Cloud Network",
             "Store, Process, and Manage Data on Google Cloud - Console",
@@ -5121,14 +5275,14 @@ const data = [
             "Cloud Speech API: 3 Ways",
             "Monitoring in Google Cloud",
             "Analyze Speech and Language with Google APIs",
-            "Prompt Design in Vertex AI"
+            "Develop Gen AI Apps with Gemini and Streamlit"
         ],
         "arcadeGamesList": [
             "Level 3: Generative AI"
         ]
     },
     {
-        "sno": 148,
+        "sno": 152,
         "name": "Bapanapalli Charan",
         "email": "bapanapallicharan@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/427fb5c7-3588-4a1e-9d7b-e48cc10ff53e",
@@ -5159,107 +5313,13 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 149,
-        "name": "Maddu Yuvasree",
-        "email": "m.yuvasree123@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/1f34b6e6-dd28-4280-aed5-c5ba8282e776",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 17,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Build a Website on Google Cloud",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 150,
-        "name": "SABIHA SULTHANA SHAIK",
-        "email": "shaiksabihasulthana484@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/75a775e5-417b-458d-9ba2-38ba89bbd04e",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 17,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs",
-            "Develop Gen AI Apps with Gemini and Streamlit"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 151,
-        "name": "Pottapi Poornesh Kumar",
-        "email": "poorneshkumar68183@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/ecdd008a-729e-4fdc-8aec-9276a1ac0f88",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 16,
-        "arcadeGames": 1,
-        "totalCompletion": "Yes",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet",
-            "Develop with Apps Script and AppSheet",
-            "Set Up a Google Cloud Network",
-            "Store, Process, and Manage Data on Google Cloud - Console",
-            "Cloud Run Functions: 3 Ways",
-            "App Engine: 3 Ways",
-            "Cloud Speech API: 3 Ways",
-            "Monitoring in Google Cloud",
-            "Analyze Speech and Language with Google APIs"
-        ],
-        "arcadeGamesList": [
-            "Level 3: Generative AI"
-        ]
-    },
-    {
-        "sno": 152,
+        "sno": 153,
         "name": "Gonugunta Renuka",
         "email": "renukagonugunta78@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6ebe394e-9b9a-4ac6-b2b2-7fb7b39ff261",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
-        "skillBadges": 16,
+        "skillBadges": 17,
         "arcadeGames": 0,
         "totalCompletion": "No",
         "skillBadgesList": [
@@ -5278,12 +5338,44 @@ const data = [
             "Cloud Speech API: 3 Ways",
             "Monitoring in Google Cloud",
             "Analyze Speech and Language with Google APIs",
+            "Prompt Design in Vertex AI",
             "Develop Gen AI Apps with Gemini and Streamlit"
         ],
         "arcadeGamesList": []
     },
     {
-        "sno": 153,
+        "sno": 154,
+        "name": "Pream Pareesh",
+        "email": "Prempareesh798@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/6533ab8d-53f6-403c-aa21-e1732b101fec",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 17,
+        "arcadeGames": 0,
+        "totalCompletion": "No",
+        "skillBadgesList": [
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways",
+            "Monitoring in Google Cloud",
+            "Prompt Design in Vertex AI",
+            "Develop Gen AI Apps with Gemini and Streamlit"
+        ],
+        "arcadeGamesList": []
+    },
+    {
+        "sno": 155,
         "name": "DURGAM GREESHMA",
         "email": "durgamgreeshma402@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/c8953c3f-70ed-4c7e-8cea-a8ce922cab4d",
@@ -5314,14 +5406,14 @@ const data = [
         ]
     },
     {
-        "sno": 154,
-        "name": "PIDATHALA GNANA SUDHA MOUNIKA",
-        "email": "gnanasudhamounika@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/ff70adb3-fd83-4530-bffc-56300fb3ae1e",
+        "sno": 156,
+        "name": "Jashwitha Reddy Musunuru",
+        "email": "jashwithareddy856@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/2d3b9c76-0e6e-4fa0-85ac-49d3e8e98454",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
-        "skillBadges": 13,
-        "arcadeGames": 1,
+        "skillBadges": 15,
+        "arcadeGames": 0,
         "totalCompletion": "No",
         "skillBadgesList": [
             "The Basics of Google Cloud Compute",
@@ -5332,18 +5424,18 @@ const data = [
             "Get Started with Dataplex",
             "Get Started with Google Workspace Tools",
             "App Building with AppSheet",
+            "Develop with Apps Script and AppSheet",
             "Build a Website on Google Cloud",
             "Set Up a Google Cloud Network",
             "Store, Process, and Manage Data on Google Cloud - Console",
             "Cloud Run Functions: 3 Ways",
-            "Develop Gen AI Apps with Gemini and Streamlit"
+            "App Engine: 3 Ways",
+            "Cloud Speech API: 3 Ways"
         ],
-        "arcadeGamesList": [
-            "Level 3: Generative AI"
-        ]
+        "arcadeGamesList": []
     },
     {
-        "sno": 155,
+        "sno": 157,
         "name": "shaik Heena kowsar",
         "email": "shaikheenakowsar244@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/96968761-effe-4a34-9fa6-d48b38228e8e",
@@ -5370,7 +5462,33 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 156,
+        "sno": 158,
+        "name": "KALIKOYI.MADHU",
+        "email": "madhukalikoyi3@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/41ea45f5-88c9-45af-a4a1-647605d8a563",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 12,
+        "arcadeGames": 0,
+        "totalCompletion": "No",
+        "skillBadgesList": [
+            "Get Started with Cloud Storage",
+            "Get Started with Pub/Sub",
+            "Get Started with API Gateway",
+            "Get Started with Looker",
+            "Get Started with Dataplex",
+            "Get Started with Google Workspace Tools",
+            "App Building with AppSheet",
+            "Build a Website on Google Cloud",
+            "Set Up a Google Cloud Network",
+            "Store, Process, and Manage Data on Google Cloud - Console",
+            "Cloud Run Functions: 3 Ways",
+            "App Engine: 3 Ways"
+        ],
+        "arcadeGamesList": []
+    },
+    {
+        "sno": 159,
         "name": "Jillellamudi Sai Lakshmi Vatsalya",
         "email": "jillellamudivatsalya@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6d081640-e664-4d3b-afbe-684c58664814",
@@ -5394,14 +5512,14 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 157,
+        "sno": 160,
         "name": "Lakshmi Manogna Bollepalli",
         "email": "manogna.bollepalli@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5c707c28-8cc1-43a6-9b7e-947353693fad",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
         "skillBadges": 9,
-        "arcadeGames": 0,
+        "arcadeGames": 1,
         "totalCompletion": "No",
         "skillBadgesList": [
             "The Basics of Google Cloud Compute",
@@ -5414,31 +5532,33 @@ const data = [
             "App Building with AppSheet",
             "Develop with Apps Script and AppSheet"
         ],
-        "arcadeGamesList": []
+        "arcadeGamesList": [
+            "Level 3: Generative AI"
+        ]
     },
     {
-        "sno": 158,
-        "name": "KALIKOYI.MADHU",
-        "email": "madhukalikoyi3@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/41ea45f5-88c9-45af-a4a1-647605d8a563",
+        "sno": 161,
+        "name": "Kalthireddy. Anupriya",
+        "email": "kalthireddy.anu@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/0fa5c7ec-1a14-43dd-88e7-ec83ec2daaee",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
         "skillBadges": 7,
         "arcadeGames": 0,
         "totalCompletion": "No",
         "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
             "Get Started with Cloud Storage",
             "Get Started with Pub/Sub",
             "Get Started with API Gateway",
-            "Get Started with Looker",
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools",
-            "App Building with AppSheet"
+            "Build a Website on Google Cloud",
+            "Monitoring in Google Cloud",
+            "Analyze Speech and Language with Google APIs"
         ],
         "arcadeGamesList": []
     },
     {
-        "sno": 159,
+        "sno": 162,
         "name": "Palaganti Venkata Nagendra Sai Sandeep",
         "email": "pnagi2456789@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/ed22693e-b5ee-4d44-804f-343b7f3a52e0",
@@ -5458,7 +5578,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 160,
+        "sno": 163,
         "name": "Perungavooru rekha",
         "email": "rekha22707@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/493efc5f-63b2-4a1d-967b-f4ee8a98ed6b",
@@ -5479,7 +5599,7 @@ const data = [
         ]
     },
     {
-        "sno": 161,
+        "sno": 164,
         "name": "Dandagala Gowripriya",
         "email": "gowripriyadandagala@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/6240effe-9653-4d50-9687-19edb47f01b0",
@@ -5498,7 +5618,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 162,
+        "sno": 165,
         "name": "G.LasyaPriya",
         "email": "lasyapriya074@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/5b04d72b-e2ed-45d8-ac91-b0dc203b109d",
@@ -5517,26 +5637,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 163,
-        "name": "Jashwitha Reddy Musunuru",
-        "email": "jashwithareddy856@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/2d3b9c76-0e6e-4fa0-85ac-49d3e8e98454",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 5,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with Looker",
-            "Get Started with Dataplex"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 164,
+        "sno": 166,
         "name": "MALLI CHARANYA",
         "email": "charanyamalli123@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/ec7987bc-5f33-41fa-bd6e-1d71bec25291",
@@ -5556,25 +5657,7 @@ const data = [
         ]
     },
     {
-        "sno": 165,
-        "name": "Kalthireddy. Anupriya",
-        "email": "kalthireddy.anu@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/0fa5c7ec-1a14-43dd-88e7-ec83ec2daaee",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 4,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute",
-            "Get Started with Cloud Storage",
-            "Get Started with Pub/Sub",
-            "Get Started with API Gateway"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 166,
+        "sno": 167,
         "name": "Kovelakuntla Vency Raj",
         "email": "vencyraj99@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/2befaa91-0ba0-4c6b-9e3f-f10f09a78aa0",
@@ -5592,7 +5675,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 167,
+        "sno": 168,
         "name": "Sreemanthula Venkata Sai Jyoshna",
         "email": "svsjyoshna77@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/527d8530-8473-481f-9a45-becb0d42bd96",
@@ -5610,7 +5693,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 168,
+        "sno": 169,
         "name": "Rao Priskilla",
         "email": "priskillarao@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/f4ef7916-b1d8-4679-a6d5-264f549470ad",
@@ -5627,7 +5710,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 169,
+        "sno": 170,
         "name": "Valluru Charitha",
         "email": "vallurucharitha02@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/10e985fb-632f-4529-8abb-6abfef6b232a",
@@ -5644,7 +5727,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 170,
+        "sno": 171,
         "name": "P.Abdul Baseed Ali",
         "email": "patanabdul2006@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/ea4ac873-8b08-4ece-9f5c-cec7df68e12d",
@@ -5656,22 +5739,6 @@ const data = [
         "skillBadgesList": [
             "Store, Process, and Manage Data on Google Cloud - Console",
             "Monitoring in Google Cloud"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 171,
-        "name": "Pream Pareesh",
-        "email": "Prempareesh798@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/6533ab8d-53f6-403c-aa21-e1732b101fec",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 2,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "Get Started with Dataplex",
-            "Get Started with Google Workspace Tools"
         ],
         "arcadeGamesList": []
     },
@@ -5693,6 +5760,22 @@ const data = [
     },
     {
         "sno": 173,
+        "name": "Thanusha punamalli",
+        "email": "punamallithanusha@gmail.com",
+        "profileURL": "https://www.cloudskillsboost.google/public_profiles/d504ffa5-b9cb-4828-a1d1-01e9d10ad9cf",
+        "profileStatus": "All Good",
+        "redemptionStatus": "Yes",
+        "skillBadges": 2,
+        "arcadeGames": 0,
+        "totalCompletion": "No",
+        "skillBadgesList": [
+            "The Basics of Google Cloud Compute",
+            "Get Started with Dataplex"
+        ],
+        "arcadeGamesList": []
+    },
+    {
+        "sno": 174,
         "name": "Bathula Maha Karthik",
         "email": "Karthikbathula700@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/a9590f11-84bc-4fdd-93a6-781552f18e52",
@@ -5707,7 +5790,7 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 174,
+        "sno": 175,
         "name": "Nagaraju Yasaswini Priya",
         "email": "23711a3340@necn.ac.in",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/2a49373d-646a-42e7-aef0-cc3d4c7127f3",
@@ -5722,25 +5805,10 @@ const data = [
         "arcadeGamesList": []
     },
     {
-        "sno": 175,
+        "sno": 176,
         "name": "Somu Karthik",
         "email": "somukarthikreddy@gmail.com",
         "profileURL": "https://www.cloudskillsboost.google/public_profiles/ead10adf-5903-4b8e-b1bb-a1b85a48541c",
-        "profileStatus": "All Good",
-        "redemptionStatus": "Yes",
-        "skillBadges": 1,
-        "arcadeGames": 0,
-        "totalCompletion": "No",
-        "skillBadgesList": [
-            "The Basics of Google Cloud Compute"
-        ],
-        "arcadeGamesList": []
-    },
-    {
-        "sno": 176,
-        "name": "Thanusha punamalli",
-        "email": "punamallithanusha@gmail.com",
-        "profileURL": "https://www.cloudskillsboost.google/public_profiles/d504ffa5-b9cb-4828-a1d1-01e9d10ad9cf",
         "profileStatus": "All Good",
         "redemptionStatus": "Yes",
         "skillBadges": 1,
