@@ -18,6 +18,15 @@ export const StudentDetailsContainer = styled.div`
   }
 `;
 
+export const LoaderContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+`;
+
 export const HeroSection = styled.section`
   display: flex;
   justify-content: space-between;
@@ -33,8 +42,7 @@ export const HeroContent = styled.div`
   gap: 20px;
 `;
 
-export const HeroTop = styled.div`
-`
+export const HeroTop = styled.div``;
 
 /* ---------- GREETINGS SECTION ---------- */
 
@@ -44,7 +52,7 @@ export const GreetingsContainer = styled.div`
   gap: 20px;
   margin-bottom: 10px;
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;
     gap: 0px;
@@ -56,9 +64,9 @@ export const Greeting = styled.h2`
   font-weight: 600;
   color: #202124;
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 21px;
-  } 
+  }
 `;
 
 export const CompletionBadge = styled.span`
@@ -69,7 +77,7 @@ export const CompletionBadge = styled.span`
   font-weight: 500;
   font-size: 14px;
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     font-sixe: 13px;
   }
 `;
@@ -78,10 +86,10 @@ export const CompletionBadge = styled.span`
 
 export const InfoList = styled.div`
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px 40px; // row-gap 24px, column-gap 40px
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     margin-top: 32px;
     margin-bottom: 16px;
     grid-template-columns: repeat(1, 1fr);
@@ -98,8 +106,8 @@ export const InfoItem = styled.div`
 
 export const InfoIcon = styled.p`
   font-size: 20px;
-  color: ${props => props.link ? "#1a73e8" : "#5f6368"};
-  margin-top: ${props => props.link || props.mail ? "3px": "0px"};
+  color: ${(props) => (props.link ? "#1a73e8" : "#5f6368")};
+  margin-top: ${(props) => (props.link || props.mail ? "3px" : "0px")};
 `;
 
 export const InfoText = styled.p`
@@ -107,13 +115,12 @@ export const InfoText = styled.p`
   color: #202124;
   margin: 0;
   padding: 0;
-  
 `;
 
 export const Description = styled.p`
   font-size: 18px;
   color: #5f6368;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 17px;
   }
 `;
@@ -131,8 +138,7 @@ export const HeaderSection = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`
-
+`;
 
 /* ---------- PROGRESS CARDS ---------- */
 export const ProgressCardContainer = styled.div`
@@ -150,7 +156,7 @@ export const ProgressCard = styled.div`
   display: flex;
   flex-direction: column;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     padding: 12px 24px;
   }
 `;
@@ -176,14 +182,14 @@ export const ProgressValue = styled.span`
   font-weight: 600;
   color: #1a73e8;
   margin-bottom: 10px;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 21px;
   }
 `;
 
 /* ---------- MILESTONES / TIMELINE ---------- */
 export const ProgressTrackContainer = styled.div`
-  background-color: #A5B4FC;
+  background-color: #a5b4fc;
   height: 100px;
   padding: 24px 32px;
   border-radius: 20px;
@@ -191,10 +197,10 @@ export const ProgressTrackContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-bottom: 20px;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     padding: 20px 24px 20px 18px;
   }
-`
+`;
 
 export const ProgressTimeline = styled.div`
   position: relative;
@@ -218,7 +224,7 @@ export const Milestone = styled.img`
   left: ${({ position }) => position * 5}%;
   transform: translateX(-50%);
   width: 40px;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     width: 20px;
     top: -8px;
   }
@@ -232,19 +238,19 @@ export const Position = styled.p`
   color: #414447ff;
   font-size: 17px;
   font-weight: 500;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     top: -1px;
   }
-`
+`;
 
 export const MilestoneFlag = styled(Milestone)`
   top: -50px;
   width: 60px;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     width: 40px;
     top: -32px;
   }
-`
+`;
 
 /* ---------- BADGES SECTION ---------- */
 export const BadgesListContainer = styled.div`
@@ -255,7 +261,7 @@ export const BadgesListContainer = styled.div`
   padding: 32px 24px;
   border-radius: 20px;
   margin-bottom: 20px;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     padding: 24px 16px;
   }
 `;
@@ -288,7 +294,7 @@ export const BadgesList = styled.ul`
   gap: 10px;
   list-style: none;
   padding: 0;
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     margin-top: 8px;
   }
 `;
@@ -300,9 +306,8 @@ export const BadgeItem = styled.li`
   font-size: 18px;
   border-left: 4px solid #1a73e8;
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     padding: 10px 13px;
     font-size: 15px;
   }
 `;
-
