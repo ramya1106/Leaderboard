@@ -3,5 +3,11 @@
     "better-sqlite3": "^12.4.1",
     "express": "^5.1.0",
     "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
