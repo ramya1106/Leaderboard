@@ -62,7 +62,7 @@ function StudentDetails() {
   const fetchStudentDetails = async () => {
     setApiStatus(apiStatusConstants.loading);
     try {
-      const res = await fetch(`/students/${id}`);
+      const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/students/${id}`)
       const data = await res.json();
       setStudentData(data);
       setApiStatus(apiStatusConstants.success);

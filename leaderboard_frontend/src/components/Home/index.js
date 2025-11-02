@@ -43,7 +43,7 @@ function Home() {
   const fetchStudents = async () => {
     setApiStatus(apiStatusConstants.loading);
     try {
-      const res = await fetch("/students");
+      const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/students`);
       const data = await res.json();
       setApiData(data);
       setApiStatus(apiStatusConstants.success);
