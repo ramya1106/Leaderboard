@@ -1,8 +1,13 @@
+/**
+ *  The API fetch logic is intentionally preserved (NOT deleted).
+ *  Can be re-enabled anytime by uncommenting `fetchStudentDetails()`.
+ */
+
 import Header from "../Header";
 import Footer from "../Footer";
 
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 
 import { MdOutlineMailOutline } from "react-icons/md";
@@ -53,28 +58,43 @@ const apiStatusConstants = {
 };
 
 function StudentDetails() {
-  const { id } = useParams(); // mapped to sno
-  const [apiStatus, setApiStatus] = useState(apiStatusConstants.initial);
-  const [studentData, setStudentData] = useState(null);
+  // const { id } = useParams();  API mode -> used as DB primary key
+  const location = useLocation(); // STATIC mode -> Getting data from router state 
+  const { studentData } = location.state || {}; // comment when using API
+
+  /**
+   * STATIC MODE (default)
+   * Since no backend call is made, we start in SUCCESS state immediately.
+   *
+   * To use API mode again:
+   *   replace `apiStatusConstants.success` with `apiStatusConstants.initial`
+   *   and uncomment the fetch + useEffect below.
+   */
+  
+  const [apiStatus, setApiStatus] = useState(apiStatusConstants.success);
+  // const [studentData, setStudentData] = useState(null);  <-- enable in API mode
+
   const [activeBadge, toggleActiveBadge] = useState("Skill Badges");
   const [animatedProgress, setAnimatedProgress] = useState(0);
 
-  const fetchStudentDetails = async () => {
-    setApiStatus(apiStatusConstants.loading);
-    try {
-      const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/students/${id}`)
-      const data = await res.json();
-      setStudentData(data);
-      setApiStatus(apiStatusConstants.success);
-    } catch {
-      setApiStatus(apiStatusConstants.failure);
-    }
-  };
+  //  BACKEND FETCH LOGIC 
+  // const fetchStudentDetails = async () => {
+  //   setApiStatus(apiStatusConstants.loading);
+  //   try {
+  //     const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/students/${id}`);
+  //     const data = await res.json();
+  //     setStudentData(data);
+  //     setApiStatus(apiStatusConstants.success);
+  //   } catch {
+  //     setApiStatus(apiStatusConstants.failure);
+  //   }
+  // };
 
-  useEffect(() => {
-    fetchStudentDetails();
-  }, []);
+  // useEffect(() => {
+  //   fetchStudentDetails();
+  // }, [id]);
 
+  //  Animated progress bar (works in both modes)
   useEffect(() => {
     if (studentData) {
       const totalProgress = studentData.arcadeGames + studentData.skillBadges;
@@ -85,7 +105,7 @@ function StudentDetails() {
     }
   }, [studentData]);
 
-  const onRetry = () => fetchStudentDetails();
+  // const onRetry = () => fetchStudentDetails(); // API mode only
 
   const renderStudentView = () => {
     switch (apiStatus) {
@@ -108,13 +128,13 @@ function StudentDetails() {
             <p className="failure-view-description">
               We cannot seem to find the page you are looking for
             </p>
-            <button
+            {/* <button
               type="button"
               className="retry-button"
               onClick={onRetry}
             >
               Retry
-            </button>
+            </button> */}
           </LoaderContainer>
         );
 
