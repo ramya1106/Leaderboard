@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HomePage = styled.div`
-  margin-top: 100px;
+  margin-top: 88px;
   padding: 20px 100px 40px 100px;
   min-height: 72vh;
   @media (max-width: 768px) {

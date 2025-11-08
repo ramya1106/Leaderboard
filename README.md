@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+#  Study Jams Leaderboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack leaderboard platform built for Google Study Jam 2025, designed to track and showcase the progress of every participating student.
+The leaderboard displays live rankings, completion status, skill badges, arcade game achievements, and eligibility for swags.
+Each student also gets a public portfolio page with a unique shareable URL - useful for LinkedIn, resumes, and certificates of participation.
 
-## Available Scripts
+The project supports **two modes**:
 
-In the project directory, you can run:
+| Mode | Description |
+|-------|-------------|
+| **API Mode** | Fetches live leaderboard data from backend (Node.js + Express, hosted on Render). |
+| **Static Mode (Default)** | Uses local JSON data (faster). |
 
-### `npm start`
+> Render free tier sleeps after inactivity, causing 60-120s cold start delay.  
+> To keep the project user-friendly, **API fetch is commented**, but fully functional and can be re-enabled anytime.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Displays leaderboard of all participating students  
+- Search by name with real-time filtering  
+- Individual student profile page (`/studentDetails/:id`)  
+- Shows skill badges, arcade games, redemption and completion status  
+- Swag + Gallery: Students can see photos of last year’s swag distribution and event
+  highlights. This year’s gallery will be added after the 2025 Success Meet.
+- Fully responsive (mobile + desktop)  
+- Elegant UI using Styled Components  
+- API mode & static mode switch (developer-friendly)  
+- Unique shareable link for each student to showcase progress in API Mode
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Live Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Resource | Link |
+|----------|------|
+| **Frontend (Live Demo)** | https://leaderboard-6dkp.onrender.com |
+| **Backend API (Render)** | https://leaderboard-backend-423o.onrender.com |
+| **Example Profile Page** | https://leaderboard-6dkp.onrender.com/studentDetails/62 *(works when API mode is enabled)* |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+##  Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React.js, React Router, Styled Components |
+| **Backend (optional)** | Node.js + Express |
+| **Deployment** | Render (Backend and Frontend)) |
+| **Icons** | `react-icons` |
+| **Loader** | `react-loader-spinner` |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+| Home Page | Student Details |
+|-----------|-----------------|
+| ![](./screenshots/Home_Page.png) ![](./screenshots/Home_Page_2.png) | ![](./screenshots/Student_Portfolio_1.png) ![](./screenshots/Student_Portfolio_2.png) |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## API Endpoints (Backend Mode)
 
-### Code Splitting
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/students` | Returns full leaderboard |
+| `GET` | `/students/:id` | Returns profile details of one student |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+##  Setup & Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Clone Repo
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/your-username/study-jams-leaderboard.git
+cd study-jams-leaderboard
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Frontend Setup (React)
 
-### Advanced Configuration
+```bash
+cd leaderboard-frontend
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### To switch Static Mode → API Mode:
+```bash
+Uncomment the API fetch code inside Leaderboard.jsx and StudentDetails.jsx.
+```
 
-### Deployment
+### Backend Setup (Optional for Static Mode)
+```bash
+cd leaderboard-backend
+npm install
+node server.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Deployment Notes
 
-### `npm run build` fails to minify
+1. Frontend can be deployed on Render 
+2. Backend is deployed on Render (free tier)
+3. static mode added to avoid cold start delay of Render backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author & Credits
+
+Built by: Ramya Sree Mamidi \
+GDG On-Campus Web/App Dev Lead

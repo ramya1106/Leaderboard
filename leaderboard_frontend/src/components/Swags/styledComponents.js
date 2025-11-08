@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SwagContainer = styled.div`
   padding: 24px 100px;
-  margin-top: 100px;
+  margin-top: 80px;
 
   @media(max-width: 768px){
     padding: 24px 32px;

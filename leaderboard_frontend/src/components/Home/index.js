@@ -1,13 +1,12 @@
 /*  
-  API Integration (Temporarily Disabled)  
-  Reason: Render free backend sleeps after inactivity (cold start 1–2 mins)  
-  → Not suitable for real-time user experience  
-  → Static fallback used for faster demo + deployment
+  - Currently uses static fallback data for instant load.
+  - API integration is disabled due to Render backend cold start delay.
 
-  To re-enable:
-  1. Uncomment fetchStudents()
-  2. Change apiStatus initial value to "INITIAL"
-  3. Remove static data import
+  To Re-enable API Mode:
+    1. Uncomment fetchStudents() function and useEffect() call.
+    2. Change apiStatus initial state to apiStatusConstants.initial.
+    3. Replace static `data` import with an empty array state.
+    4. Uncomment retry button and onRetry() handler inside failure view.
 */
 
 import { useState, useEffect } from "react";
@@ -31,6 +30,8 @@ import {
   StyledLink,
   LoaderContainer,
 } from "./styledComponents";
+
+// Static Data - Used when backend API is disabled.
 
 const data = [
   {
@@ -6134,6 +6135,8 @@ const data = [
   },
 ];
 
+// API Status Constants - Used in conditional rendering (loading, success, failure).
+
 const apiStatusConstants = {
   initial: "INITIAL",
   loading: "LOADING",
@@ -6143,15 +6146,32 @@ const apiStatusConstants = {
 
 function Home() {
   const [searchName, setSearchName] = useState("");
-  const [apiStatus, setApiStatus] = useState(apiStatusConstants.success); // useState(apiStatusConstants.initial) - when using API
-  const [apiData, setApiData] = useState(data); //useState([]) - when using API
-
+  // API MODE: change this back to `apiStatusConstants.initial`
+  const [apiStatus, setApiStatus] = useState(apiStatusConstants.success);
+  // API MODE: initialize with empty array []
+  const [apiData, setApiData] = useState(data);
+  // Filters leaderboard dynamically by student name
   const filteredData = apiData.filter((student) =>
     student.name.toLowerCase().includes(searchName.toLowerCase())
   );
 
   /*  
+
   BACKEND FETCH LOGIC  (Temporarily Disabled)
+
+  Description:
+    - Fetches student data from your backend hosted on Render.
+    - Disabled because free Render tier has cold start latency (~1–2 mins).
+
+  Steps to Re-enable:
+    1. Uncomment entire block.
+    2. Ensure your API base URL is set in `.env` as REACT_APP_API_BASE_URL.
+    3. Update apiStatus and apiData initial states above.
+
+  */
+
+  /*  
+
   const fetchStudents = async () => {
     setApiStatus(apiStatusConstants.loading);
     try {
@@ -6170,11 +6190,12 @@ function Home() {
 
   const onRetry = () => fetchStudents();
  */
-
-  
+ 
+  // Main Render Logic: Handles all API states - loading / failure / success
 
   const renderStudentsData = () => {
     switch (apiStatus) {
+      // LOADING STATE: spinner
       case apiStatusConstants.loading:
         return (
           <LoaderContainer data-testid="loader">
@@ -6182,6 +6203,7 @@ function Home() {
           </LoaderContainer>
         );
 
+      // FAILURE STATE: error view with retry option (disabled currently)
       case apiStatusConstants.failure:
         return (
           <tr>
@@ -6198,6 +6220,9 @@ function Home() {
                 <p className="failure-view-description">
                   We cannot seem to find the page you are looking for
                 </p>
+                {/* 
+                  API MODE: Uncomment the retry button to allow re-fetching data 
+                */}
                 {/* <button
                   type="button"
                   className="retry-button"
@@ -6210,6 +6235,7 @@ function Home() {
           </tr>
         );
 
+      // SUCCESS STATE: main leaderboard display
       case apiStatusConstants.success:
         return filteredData.map((student, index) => (
           <tr

@@ -37,6 +37,7 @@ function Header() {
         </NavItem>
         <NavItem as={Link} to="/swags">Swags</NavItem>
         <NavItem as={Link} to="/gallery">Gallery</NavItem>
+        <NavItem as={Link} to="/team">Our Team</NavItem>
       </NavItems>
     </Navbar>
   );

@@ -1,6 +1,12 @@
-/**
- *  The API fetch logic is intentionally preserved (NOT deleted).
- *  Can be re-enabled anytime by uncommenting `fetchStudentDetails()`.
+/*
+    - Currently uses data passed via `react-router` state.
+    - API MODE: Fetches student data from backend via ID.
+  
+    To Re-enable API Mode:
+      1. Uncomment useParams() for route-based ID access.
+      2. Uncomment fetchStudentDetails() logic and its useEffect.
+      3. Change apiStatus initial state to apiStatusConstants.initial.
+      4. Comment/remove destructuring from `location.state`.
  */
 
 import Header from "../Header";
@@ -58,43 +64,55 @@ const apiStatusConstants = {
 };
 
 function StudentDetails() {
-  // const { id } = useParams();  API mode -> used as DB primary key
-  const location = useLocation(); // STATIC mode -> Getting data from router state 
-  const { studentData } = location.state || {}; // comment when using API
+  // const { id } = useParams();  // API MODE: Enable this to get student ID from route
+  const location = useLocation(); // STATIC mode: Getting data from router state 
+  const { studentData } = location.state || {}; // Comment this when switching to API mode
 
-  /**
-   * STATIC MODE (default)
-   * Since no backend call is made, we start in SUCCESS state immediately.
-   *
-   * To use API mode again:
-   *   replace `apiStatusConstants.success` with `apiStatusConstants.initial`
-   *   and uncomment the fetch + useEffect below.
+  /*
+    STATIC MODE (default)
+    Since no backend call is made, we start in SUCCESS state immediately.
+   
+    To use API mode again:
+      replace `apiStatusConstants.success` with `apiStatusConstants.initial`
+      and uncomment the fetch + useEffect below.
    */
   
   const [apiStatus, setApiStatus] = useState(apiStatusConstants.success);
-  // const [studentData, setStudentData] = useState(null);  <-- enable in API mode
+  // const [studentData, setStudentData] = useState(null);  // API MODE: Uncomment when fetching from backend
 
   const [activeBadge, toggleActiveBadge] = useState("Skill Badges");
   const [animatedProgress, setAnimatedProgress] = useState(0);
 
-  //  BACKEND FETCH LOGIC 
-  // const fetchStudentDetails = async () => {
-  //   setApiStatus(apiStatusConstants.loading);
-  //   try {
-  //     const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/students/${id}`);
-  //     const data = await res.json();
-  //     setStudentData(data);
-  //     setApiStatus(apiStatusConstants.success);
-  //   } catch {
-  //     setApiStatus(apiStatusConstants.failure);
-  //   }
-  // };
+  /*
+    BACKEND FETCH LOGIC 
 
-  // useEffect(() => {
-  //   fetchStudentDetails();
-  // }, [id]);
+    Description:
+     - Fetches a single student's data from API by ID.
+     - Automatically updates status and handles success/failure UI.
+  */
 
-  //  Animated progress bar (works in both modes)
+  /*
+  const fetchStudentDetails = async () => {
+    setApiStatus(apiStatusConstants.loading);
+    try {
+      const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/students/${id}`);
+      const data = await res.json();
+      setStudentData(data);
+      setApiStatus(apiStatusConstants.success);
+    } catch {
+      setApiStatus(apiStatusConstants.failure);
+    }
+  };
+
+  useEffect(() => {
+    fetchStudentDetails();
+  }, [id]);
+
+  const onRetry = () => fetchStudentDetails(); 
+  */
+
+  //  Animated progress bar 
+
   useEffect(() => {
     if (studentData) {
       const totalProgress = studentData.arcadeGames + studentData.skillBadges;
@@ -105,7 +123,7 @@ function StudentDetails() {
     }
   }, [studentData]);
 
-  // const onRetry = () => fetchStudentDetails(); // API mode only
+  // Main Render Logic: Handles all API states - loading / failure / success
 
   const renderStudentView = () => {
     switch (apiStatus) {
@@ -141,6 +159,7 @@ function StudentDetails() {
       case apiStatusConstants.success:
         return (
           <>
+          {/* Hero Section - Student Overview */}
             <HeroSection>
               <HeroContent>
                 <HeroTop>
@@ -153,6 +172,7 @@ function StudentDetails() {
                     </CompletionBadge>
                   </GreetingsContainer>
 
+                  {/* Student Info Section */}
                   <InfoList>
                     <InfoItem>
                       <InfoIcon as={MdOutlineMailOutline} mail />
@@ -192,6 +212,7 @@ function StudentDetails() {
 
             <Description>View your Google Study Jam progress here!</Description>
 
+            {/* Progress Cards */}
             <ProgressCardContainer>
               <ProgressCard>
                 <ProgressHeader>
@@ -209,6 +230,7 @@ function StudentDetails() {
               </ProgressCard>
             </ProgressCardContainer>
 
+            {/* Progress Timeline */}
             <ProgressTrackContainer>
               <ProgressTimeline>
                 <TimelineTrack progress={animatedProgress} />
@@ -228,7 +250,8 @@ function StudentDetails() {
                 />
               </ProgressTimeline>
             </ProgressTrackContainer>
-
+            
+            {/* Badge Lists - Conditional rendering for Skill Badges and Arcade Games */}
             <BadgesListContainer>
               <BadgeToggleGroup>
                 <BadgeTypeButton

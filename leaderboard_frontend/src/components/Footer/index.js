@@ -1,4 +1,4 @@
-import { FooterSection, FooterLinks } from "./styledComponents";
+import { FooterSection, FooterLinks, Icon } from "./styledComponents";
 
 import { FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
@@ -15,28 +15,28 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin />
+          <Icon as={FaLinkedin} />
         </a>
         <a
           href="https://www.instagram.com/gdg_on_campus_necn"
           target="_blank"
           rel="noreferrer"
         >
-          <FaInstagram />
+          <Icon as={FaInstagram} />
         </a>
         <a
           href="mailto:gdgoncampusnecn@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
-          <FaEnvelope />
+          <Icon as={FaEnvelope} />
         </a>
         <a
           href="https://www.youtube.com/@gdg-on-campus-necn"
           target="_blank"
           rel="noreferrer"
         >
-          <FaYoutube />
+          <Icon as={FaYoutube} />
         </a>
         <a
           href="https://gdg.community.dev/gdg-on-campus-narayana-engineering-college-nellore-india/"
@@ -44,7 +44,7 @@ function Footer() {
           rel="noreferrer"
           aria-label="Community Page"
         >
-          <FiGlobe />
+          <Icon as={FiGlobe} />
         </a>
       </FooterLinks>
       <p>

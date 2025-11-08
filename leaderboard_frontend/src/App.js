@@ -12,6 +12,8 @@ import Swags from './components/Swags'
 
 import Gallery from './components/Gallery'
 
+import TeamDetails from './components/TeamDetails';
+
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +23,7 @@ function App() {
         <Route path='/studentDetails/:id' element={<StudentDetails/>} />
         <Route path='/swags' element={<Swags/>} />
         <Route path='/gallery' element={<Gallery/>} />
+        <Route path='/team' element={<TeamDetails/>} />
       </Routes>
     </BrowserRouter>
   );

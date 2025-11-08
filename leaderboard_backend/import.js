@@ -29,4 +29,4 @@ db.transaction(() => {
   });
 })();
 
-console.log("✅ JSON data inserted successfully!");
+console.log("JSON data inserted successfully!");
